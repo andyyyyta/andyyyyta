@@ -1,0 +1,84 @@
+@font-face{
+    font-family: emily;
+    src: url(fonts/Helvetica.ttf)
+}
+@font-face{
+    font-family: justin;
+    src: url(fonts/Oswald.ttf)
+}
+@font-face{
+    font-family: ya;
+    src: url(fonts/adam.otf)
+}
+body{
+    background-image: url(images/new.jpg);
+    background-color: #4495a3;
+    background-size: cover;
+    font-family: "justin", sans-serif;
+    color: white;
+}
+h1{
+    font-family:"emily", sans-serif;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: gray;
+    color: white;
+}
+#thicc {
+    border: solid white 3px;
+    margin: 50px;
+    padding: 75px;
+    text-align: center;
+}
+#yolo {
+    text-align: center;
+    width: 100%;
+    font-size: 125px;
+    font-family: "ya";
+    line-height: 250px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+}
+#swag {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+#sweg {
+    position:absolute;
+    bottom:10;
+    right:0;
+}
+#middle {
+    text-align: middle;
+}
+#smaller {
+    width: 10%;
+}
+a {
+    color: white;
+}
+.terry {
+    background: rgba(0, 0, 0, 0.3); margin:-8px;
+    margin-bottom: -12px;
+}
